@@ -83,8 +83,7 @@ pipeline {
           tagRule : tagMatchRules,
           customProperties : [
             [key: 'Jenkins Build Number', value: "${env.BUILD_ID}"],
-            [key: 'Git commit', value: "${env.GIT_COMMIT}"],
-            [key: 'Gabes Bday', value: "07/11/1994"]
+            [key: 'Git commit', value: "${env.GIT_COMMIT}"]
           ]
         )
       }
